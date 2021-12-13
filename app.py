@@ -59,7 +59,7 @@ def error(context, update):
 
 bot = Bot(TOKEN)
 try:
-    bot.set_webhook("https://arcane-shelf-37866.herokuapp.com/" + TOKEN)
+    bot.set_webhook("https://serene-taiga-42065.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 dp = Dispatcher(bot, None)
